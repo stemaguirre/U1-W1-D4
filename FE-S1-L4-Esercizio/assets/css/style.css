@@ -86,6 +86,11 @@ main ul {
     display: inline-block;
 }
 
+#video-youtube iframe{
+    width: 100%;
+    border-radius: 15px;
+    }
+    
 /* TABELLE */
 caption {
     font-style: italic;
@@ -116,14 +121,79 @@ a:visited {
     color: rgb(0, 161, 214);
 }
 
-#video-youtube iframe{
-width: 100%;
-border-radius: 15px;
-}
-
 
 /* FORM */
+#form-section {
+    background-color: rgb(232, 227, 227);
+    padding: 5px;
+    border: 2px solid grey;
+}
+
+aside h4 {
+    margin: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+input {
+    border: 0 0 1px 0;
+    border-bottom-style: dashed;
+}
+
+button {
+    color: white;
+    background-color: rgb(19, 19, 190);
+    border: 0;
+    font-weight: bold;
+    padding: 4px;
+}
 
 /* ELEMENTI NELL' ASIDE */
+aside h4 {
+    margin: 25px;
+}
+
+.correlato {
+    background-color: rgb(232, 227, 227);
+    padding: 10px;
+    border: 2px solid grey;
+    margin-bottom: 10px;
+}
+
+.correlato p:nth-last-of-type(1) {
+    margin-left: 70%;
+}
+
+.correlato i {
+    margin-right: 3px;
+}
+
+h5 a {
+    color: rgb(5, 160, 211);
+}
+
+h5 a:visited {
+    color: rgb(5, 160, 211);
+}
 
 /* FOOTER */
+footer {
+    background: linear-gradient(180deg, rgb(16, 92, 117), rgb(0, 0, 82) );
+    color: white;
+    text-align: center;
+}
+
+#copyright, #epicode-info {
+    margin: 20px 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer a {
+    color: violet;
+
+}
+footer a:visited {
+    color: violet;
+}

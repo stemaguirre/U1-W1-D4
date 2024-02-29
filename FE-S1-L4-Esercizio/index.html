@@ -57,40 +57,42 @@
           a raggiungere la diffusione pressochè totale.
         </p>
         <!-- TABELLA -->
-        <table class="css-table">
-          <caption>
-            Diffusione dei CSS
-          </caption>
-          <thead>
-           <tr>
-             <th>Anno</th>
-             <th>% di utilizzo</th>
-             <th>Supporto browsers</th>
-           </tr>
-        </thead>
+       
+        <table>
+         <caption>
+           Diffusione dei CSS
+         </caption>
+         <thead>
           <tr>
-            <td>2000</td>
-            <td>20%</td>
-            <td>17%</td>
+            <th>Anno</th>
+            <th>% di utilizzo</th>
+            <th>Supporto browsers</th>
           </tr>
-          <tr>
-            <td>2002</td>
-            <td>35%</td>
-            <td>22%</td>
-          </tr>  <tr>
-            <td>2004</td>
-            <td>45%</td>
-            <td>42%</td>
-          </tr>  <tr>
-            <td>2008</td>
-            <td>80%</td>
-            <td>51%</td>
-          </tr>  <tr>
-            <td>2012</td>
-            <td>100%</td>
-            <td>76%</td>
-          </tr>
+         </thead>
+         <tr>
+           <td>2000</td>
+           <td>20%</td>
+           <td>17%</td>
+         </tr>
+         <tr>
+           <td>2002</td>
+           <td>35%</td>
+           <td>22%</td>
+         </tr>  <tr>
+           <td>2004</td>
+           <td>45%</td>
+           <td>42%</td>
+         </tr>  <tr>
+           <td>2008</td>
+           <td>80%</td>
+           <td>51%</td>
+         </tr>  <tr>
+           <td>2012</td>
+           <td>100%</td>
+           <td>76%</td>
+         </tr>
         </table>
+      
         <p>
           Un test di valutazione potrà essere fatto tramite il tool online
           <a href="https://validator.w3.org/">Markup Validation Service</a> dedicato allo scopo.
@@ -108,40 +110,41 @@
         </p>
       </section>
       <aside>
-        <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
-        <!-- FORM -->
-        <form action="http://127.0.0.1:5500/index.html">
-          <label for="email">Inserisci l'email</label>
-          <input type="email" id="email" placeholder="mario.rossi@email.com" required/>
-          <button type="submit">Iscriviti!</button>
-        </form>
-        <hr>
-        <div class="area-correlati">
-          <h3>Articoli correlati</h3>
-          <h4>Validare il codice HTML</h4>
-          <p>     
-            Categoria: develop <br />
-            Data: 18-9-2020 <br />
-          </p>
-          <h4>Correggere la sintassi</h4>
-          <p>
-            Categoria: develop <br />
-            Data: 16-9-2020 <br />
-          </p>
-          <h4>Meno Kb nella pagina</h4>
-          <p>      
-            Categoria: ottimizzazione <br />
-            Data: 30-9-2020 <br />
-          </p>
+        <div id="form-section">
+         <h4>Novità</h4>
+         <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti  alla nostra newsletter:</p>
+         <!-- FORM -->
+         <form action="http://127.0.0.1:5500/index.html">
+           <label for="email">Inserisci l'email</label>
+           <input type="email" id="email" placeholder="mario.rossi@email. com" required/>
+           <button type="submit">Iscriviti!</button>
+         </form>
         </div>
+        <h4>Articoli correlati</h4>
+        <div class="correlato">
+          <h5><a href="#">Validare il codice HTML</a></h5>
+          <p><i class="fas fa-tag"></i>Categoria: develop</p>
+          <p><i class="fas fa-calendar-alt"></i>Data: 18-9-2020</p>
+        </div>
+        <div class="correlato"> 
+          <h5><a href="#">Correggere la sintassi</a></h5>
+          <p><i class="fas fa-tag"></i>Categoria: develop</p>
+          <p><i class="fas fa-calendar-alt"></i>Data: 16-9-2020 </p>  
+        </div>
+          <div class="correlato">  
+          <h5><a href="#">Meno Kb nella pagina</a></h5>
+          <p><i class="fas fa-tag"></i>Categoria: ottimizzazione </p>
+          <p><i class="fas fa-calendar-alt"></i>Data: 30-9-2020 </p>
+        </div>
+      
       </aside>
     </main>
     <!-- PIE' DI PAGINA -->
     <footer>
-      <div class="copyright">
+      <div id="copyright">
         Blog Epicode <span>&#169</span>2024
       </div>
-      <div class="epicode-info">
+      <div id="epicode-info">
         Testata online di Mario Rossi, registrata con prot. n. 213/2018  . via Luigi Einaudi 2 - Milano. P.IVA 00112233. 
         <div>
           <a href="URL apertura Gmail con seguente indirizzo mail">info@epicode.school</a>
